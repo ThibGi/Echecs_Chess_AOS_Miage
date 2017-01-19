@@ -9,3 +9,19 @@ En local:
 
 Par URL:
 - Le site est déployé sur : http://fr.teebbo.com:8080/echecs/
+
+Pour toutes les fonctionnalités utilisant la BDD, il est préférable de tester en local (incapacité de se connecter à l'URL de connexion pour le site)
+
+#Spécification du protocole REST d’accès au service
+
+##GET
+- http://localhost:8080/AOSechecs/webresources/echec/status/{status} : initialise le jeu
+- http://localhost:8080/AOSechecs/webresources/echec/options/{option} : permet de changer les options
+- http://localhost:8080/AOSechecs/webresources/echec/play/{coord} : indique la case sur laquelle on clique au serveur
+- http://localhost:8080/AOSechecs/webresources/echec/executedialogload/{type} : charge la partie selectionnée
+
+##PUT
+- http://localhost:8080/AOSechecs/webresources/echec/executedialogsave/{type} : sauvegarde la partie en cours
+
+##DELETE 
+- http://localhost:8080/AOSechecs/webresources/echec/executedialogdelete/{type} : supprime la partie selectionnée

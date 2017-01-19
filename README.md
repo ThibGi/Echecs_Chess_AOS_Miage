@@ -1,6 +1,18 @@
 # Projet Echec J2E Restful
 Il s'agit d'un site web permettant de jouer aux echec en multijoueur ou contre l'IA.
 
+**Différents modes de jeu :**
+- Contre l'IA (IA difficulté simple)
+- Multijoueur sur le même écran
+- Multijoueur sur plusieurs clients (reste à implémenter)
+
+**Différents paramètres**
+- Sauvegarder
+- Charger
+- Zoomer
+- Afficher / masquer l'aide de jeu
+- Annuler le coup (à améliorer)
+
 # Installation
 **En local:**
 - Télécharger le fichier zip (s'il est bloqué par sécurité, télécharger le .txt et le renommer en .zip)

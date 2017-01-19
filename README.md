@@ -4,7 +4,7 @@ Il s'agit d'un site web permettant de jouer aux echec en multijoueur ou contre l
 **Différents modes de jeu :**
 - Contre l'IA (IA difficulté simple)
 - Multijoueur sur le même écran
-- Multijoueur sur plusieurs clients (reste à implémenter)
+- Multijoueur sur plusieurs clients (reste à implémenter pour cause d'accès a la base)
 
 **Différents paramètres**
 - Sauvegarder

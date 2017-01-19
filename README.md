@@ -3,9 +3,10 @@ Il s'agit d'un site web permettant de jouer aux echec en multijoueur ou contre l
 
 # Installation
 **En local:**
-- il faut dézipper l'archive puis ouvrir le projet dans Netbeans.
-- puis importer le fichier .sql dans un moteur de base de données mysql et nommer la base **_webechecs_** (par exemple WAMP)
-- lancer le jeu !
+- Télécharger le fichier zip (s'il est bloqué par sécurité, télécharger le .txt et le renommer en .zip)
+- Dézipper l'archive puis ouvrir le projet dans Netbeans.
+- Importer le fichier .sql dans un moteur de base de données mysql et nommer la base **_webechecs_** (par exemple WAMP)
+- Lancer le jeu !
 
 **Par URL:**
 - Le site est déployé sur : http://fr.teebbo.com:8080/echecs/

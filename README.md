@@ -2,12 +2,12 @@
 Il s'agit d'un site web permettant de jouer aux echec en multijoueur ou contre l'IA.
 
 # Installation
-En local:
+**En local:**
 - il faut dézipper l'archive puis ouvrir le projet dans Netbeans.
-- puis importer le fichier .sql dans un moteur de base de données mysql et nommer la base **webechecs** (par exemple WAMP)
+- puis importer le fichier .sql dans un moteur de base de données mysql et nommer la base **_webechecs_** (par exemple WAMP)
 - lancer le jeu !
 
-Par URL:
+**Par URL:**
 - Le site est déployé sur : http://fr.teebbo.com:8080/echecs/
 
 Pour toutes les fonctionnalités utilisant la BDD, il est préférable de tester en local (incapacité de se connecter à l'URL de connexion pour le site)

@@ -15,13 +15,13 @@ Pour toutes les fonctionnalités utilisant la BDD, il est préférable de tester
 #Spécification du protocole REST d’accès au service
 
 ##GET
-- http://localhost:8080/AOSechecs/webresources/echec/status/{status} : initialise le jeu
-- http://localhost:8080/AOSechecs/webresources/echec/options/{option} : permet de changer les options
-- http://localhost:8080/AOSechecs/webresources/echec/play/{coord} : indique la case sur laquelle on clique au serveur
-- http://localhost:8080/AOSechecs/webresources/echec/executedialogload/{type} : charge la partie selectionnée
+- http://localhost:8080/AOSechecs/webresources/echec/status/{status} : initialise le jeu (retourne le dessin du jeu et le zoom)
+- http://localhost:8080/AOSechecs/webresources/echec/options/{option} : permet de changer les options (retourne plusieurs paramètre selon l'option)
+- http://localhost:8080/AOSechecs/webresources/echec/play/{coord} : indique la case sur laquelle on clique au serveur (retourne le dessin du jeu)
+- http://localhost:8080/AOSechecs/webresources/echec/executedialogload/{type} : charge la partie selectionnée (retourne le nouvel échuiquier chargé) 
 
 ##PUT
-- http://localhost:8080/AOSechecs/webresources/echec/executedialogsave/{type} : sauvegarde la partie en cours
+- http://localhost:8080/AOSechecs/webresources/echec/executedialogsave/{type} : sauvegarde la partie en cours (retourne une confirmation ou non)
 
 ##DELETE 
-- http://localhost:8080/AOSechecs/webresources/echec/executedialogdelete/{type} : supprime la partie selectionnée
+- http://localhost:8080/AOSechecs/webresources/echec/executedialogdelete/{type} : supprime la partie selectionnée (retourne une confirmation)

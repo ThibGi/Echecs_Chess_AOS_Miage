@@ -4,7 +4,7 @@ Il s'agit d'un site web permettant de jouer aux echec en multijoueur ou contre l
 # Installation
 En local:
 - il faut dézipper l'archive puis ouvrir le projet dans Netbeans.
-- puis importer le fichier .sql dans un moteur de base de données mysql (par exemple WAMP)
+- puis importer le fichier .sql dans un moteur de base de données mysql et nommer la base **webechecs** (par exemple WAMP)
 - lancer le jeu !
 
 Par URL:

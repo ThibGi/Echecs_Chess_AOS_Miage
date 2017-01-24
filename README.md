@@ -23,7 +23,7 @@ Il s'agit d'un site web permettant de jouer aux echec en multijoueur ou contre l
 **Par URL:**
 - Le site est déployé sur : http://fr.teebbo.com:8080/echecs/
 
-Le site peut malfonctionner avec IE voire avec certaines version de Edge qui gèrent mal ou bloquent l'utilisation des sessions
+Le site peut malfonctionner avec IE voire avec certaines versions de Edge qui gèrent mal ou bloquent l'utilisation des sessions
 
 Pour toutes les fonctionnalités utilisant la BDD, il est préférable de tester en local (incapacité de se connecter à l'URL de connexion pour le site)
 
